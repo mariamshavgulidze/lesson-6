@@ -1,0 +1,85 @@
+.abackround {
+	width: 100%
+	position: relative;
+
+
+
+}
+.spaceship {
+
+	position: absolute;
+	width: 150px;
+	top: 100;
+	right: 200px ;
+	animation-name:spaceh ;
+	animation-duration: 15s;
+
+}
+
+@keyframes spaceh {
+  from{ transform: translateX(0px); }
+  to{ transform: translateX(-1000px); }
+}
+
+.planet{
+	position: absolute;
+	width: 100px;
+	top: 150;
+	left: 400;
+	animation-name: planetx ;
+	animation-duration: 30s;
+
+}
+@keyframes planetx{
+	from{transform: translateY(150px);  }
+	to{ transform: translateY(500px); }
+
+}
+
+
+.earth{
+	position: absolute;
+	width: 40 px;
+	top: 300;
+	left: 500px;
+
+}
+
+
+
+.star{
+	position: absolute;
+	width: 50px;
+	top: 50;
+	left: 200;
+	animation-name: starmove;
+	animation-duration: 20s;
+	animation-delay: 2s;
+}
+
+@keyframes starmove{
+	from{transform: translateY(10px);}
+    to{transform: translateY(500px);}
+
+}
+
+
+	
+
+
+
+
+.star1{
+	position: absolute;
+	width: 70px;
+	top: 500;
+	left: 1000px;
+	animation-name: mystar;
+	animation-duration: 20s;
+	animation-delay: 2s;
+	}
+
+@keyframes mystar{
+	from{transform: translateX(0px);}
+	to{transform: translateX(-700px);}
+}
